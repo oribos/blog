@@ -220,8 +220,8 @@ enable = false
     extended = true
     min = "0.75.0"
   [[module.imports]]
-    path = "https://e.coding.net/denalon/asset/docsy.git"
+    path = "https://e.coding.net/denalon/asset/docsy"
     disable = false
   [[module.imports]]
-    path = "https://e.coding.net/denalon/asset/docsy/dependencies"
+    path = "github.com/google/docsy/dependencies"
     disable = false    
