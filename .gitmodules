@@ -2,3 +2,15 @@
 [submodule "themes/docsy"]
 	path = themes/docsy
 	url = https://github.com/google/docsy
+[submodule "content/docs/develop"]
+	path = content/docs/develop
+	url = https://e.coding.net/elsatar/doc/develop.git
+[submodule "content/docs/extend"]
+	path = content/docs/extend
+	url = https://e.coding.net/frednab/content/extend.git
+[submodule "content/blog/essay"]
+	path = content/blog/essay
+	url = https://e.coding.net/elsatar/doc/essay.git
+[submodule "content/blog/update"]
+	path = content/blog/update
+	url = https://e.coding.net/frednab/content/update.git

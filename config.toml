@@ -11,7 +11,7 @@ enableMissingTranslationPlaceholders = true
 enableRobotsTXT = true
 
 # Will give values to .Lastmod etc.
-enableGitInfo = true
+enableGitInfo = false
 
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -98,8 +98,8 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "nierheim"
+privacy_policy = "/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -220,8 +220,8 @@ enable = false
     extended = true
     min = "0.75.0"
   [[module.imports]]
-    path = "github.com/google/docsy"
+    path = "https://e.coding.net/denalon/asset/docsy.git"
     disable = false
   [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
+    path = "https://e.coding.net/denalon/asset/docsy/dependencies"
     disable = false    
