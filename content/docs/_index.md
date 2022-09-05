@@ -4,6 +4,7 @@ linkTitle: "技术"
 menu:
   main:
     weight: 20
+type: blog
 ---
 
 

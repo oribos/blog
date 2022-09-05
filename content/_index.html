@@ -4,7 +4,7 @@ linkTitle = "记事本"
 +++
 
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="欢迎访问" image_anchor="top" height="min" color="primary" >}}
 <div class="mx-auto">
 	<a class="btn btn-lg btn-default btn-colourful text-white mr-3 mb-4" href="{{< relref "/" >}}">
 		欢迎<i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -13,7 +13,6 @@ linkTitle = "记事本"
 		关于<i class="fa fa-book ml-2 "></i>
 	</a>
 	<p class="lead  ml-2 text-white">
-		存放各类网络资源，素材，模板
 	</p>
 
 	<!-- <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/about" >}}">
@@ -24,3 +23,28 @@ linkTitle = "记事本"
 	</a> -->
 </div>
 {{< /blocks/cover >}}
+
+
+
+
+
+{{< blocks/section >}}
+<style>
+    div.timenode .body {
+    background:transparent!important;
+
+    }
+</style>
+
+<div id="bbtalk"></div>
+<!-- 引用 bbtalk -->
+<script src="https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js"></script>
+<script>
+bbtalk.init({
+  appId: "yRmKEDBBm8lnftlQUf8bQajn-gzGzoHsz",
+  appKey: "DvlRXPVG8FojtvyUEhVveY3r",
+  serverURLs: 'https://api.oribos.city'
+})
+</script>
+
+{{< /blocks/section >}}
