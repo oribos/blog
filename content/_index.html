@@ -29,22 +29,38 @@ linkTitle = "记事本"
 
 
 {{< blocks/section >}}
-<style>
+
+<!-- 引用 artitalk -->
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<!-- 存放说说的容器 -->
+<div id="artitalk_main"></div>
+<script>
+new Artitalk({
+    appId: 'yRmKEDBBm8lnftlQUf8bQajn-gzGzoHsz',
+    appKey: 'DvlRXPVG8FojtvyUEhVveY3r',
+	serverURL: 'https://api.oribos.city',
+	pageSize: '10',
+	motion: '1',
+	atComment: '0'
+})
+</script>
+
+<!-- <style>
     div.timenode .body {
     background:transparent!important;
 
     }
 </style>
 
-<div id="bbtalk"></div>
+<div id="bbtalk"></div> -->
 <!-- 引用 bbtalk -->
-<script src="https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js"></script>
 <script>
 bbtalk.init({
   appId: "yRmKEDBBm8lnftlQUf8bQajn-gzGzoHsz",
   appKey: "DvlRXPVG8FojtvyUEhVveY3r",
   serverURLs: 'https://api.oribos.city'
 })
-</script>
+</script> -->
 
 {{< /blocks/section >}}
