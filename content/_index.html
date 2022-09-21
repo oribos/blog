@@ -4,7 +4,7 @@ linkTitle = "记事本"
 +++
 
 
-{{< blocks/cover title="欢迎访问" image_anchor="top" height="min" color="primary" >}}
+{{< blocks/cover title="欢迎访问" image_anchor="top" height="full" color="primary" >}}
 <div class="mx-auto">
 	<a class="btn btn-lg btn-default btn-colourful text-white mr-3 mb-4" href="{{< relref "/" >}}">
 		欢迎<i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -27,40 +27,3 @@ linkTitle = "记事本"
 
 
 
-
-{{< blocks/section >}}
-
-<!-- 引用 artitalk -->
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-<!-- 存放说说的容器 -->
-<div id="artitalk_main"></div>
-<script>
-new Artitalk({
-    appId: 'yRmKEDBBm8lnftlQUf8bQajn-gzGzoHsz',
-    appKey: 'DvlRXPVG8FojtvyUEhVveY3r',
-	serverURL: 'https://api.oribos.city',
-	pageSize: '10',
-	motion: '1',
-	atComment: '0'
-})
-</script>
-
-<!-- <style>
-    div.timenode .body {
-    background:transparent!important;
-
-    }
-</style>
-
-<div id="bbtalk"></div> -->
-<!-- 引用 bbtalk -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js"></script>
-<script>
-bbtalk.init({
-  appId: "yRmKEDBBm8lnftlQUf8bQajn-gzGzoHsz",
-  appKey: "DvlRXPVG8FojtvyUEhVveY3r",
-  serverURLs: 'https://api.oribos.city'
-})
-</script> -->
-
-{{< /blocks/section >}}
