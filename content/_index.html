@@ -4,26 +4,38 @@ linkTitle: 记事本
 ---
 
 
-{{< blocks/cover title="欢迎访问" image_anchor="top" height="full" color="primary" >}}
-<div class="mx-auto">
-	<a class="btn btn-lg btn-default btn-colourful text-white mr-3 mb-4" href="{{< relref "/docs" >}}">
-		技术<i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a>
-	<a class="btn btn-lg btn-default btn-colourful text-white mr-3 mb-4" href="{{< relref "/blog" >}}">
-		随笔<i class="fa fa-book ml-2 "></i>
-	</a>
-	<p class="lead  ml-2 text-white">
-	</p>
 
-	<!-- <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/about" >}}">
-		关于<i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a> -->
-	<!-- <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
-		Download <i class="fab fa-github ml-2 "></i>
-	</a> -->
+{{<blocks/cover title="" image_anchor="center" height="min" color="primary">}}
+<div class="row align-items-center mt-5 pt-5">
+  <div class="col-lg-6">
+    <h1 class="display-1 mt-0 pb-3">
+         记事本
+    </h1>
+    <p class="display-4 mb-0">个人网站，生活随笔</p>
+  </div>
+  <div class="col-lg-6 mt-5 mt-lg-3 d-sm-block" style="display: none">
+	<!-- <img alt="Screenshot of cloudpods" width="320" src="https://gallery.oribos.city/2022/09/22/u83hFGi9.png" /> -->
+  </div>
 </div>
-{{< /blocks/cover >}}
+<div class="col-12 pt-3">
+  <div class="pt-3 lead text-center">
+    <div class="mx-auto mt-5 mb-5">
+      <a class="btn btn-lg btn-colourful text-white mr-3 mb-4" href="/blog">
+        随笔<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+      </a>
+      <a class="btn btn-lg btn-colourful text-white mr-3 mb-4" href="/docs">
+        分享<i class="fas fa-book-reader ml-2"></i>
+      </a>
+    </div>
+  </div>
+</div>
+{{</blocks/cover>}}
 
 
+{{< blocks/lead color="white" >}}
 
+<h2>使用hugo生成个人网站</h2>
 
+<p>把所见所闻通过一定的手段保留下来</p>
+
+{{< /blocks/lead >}}

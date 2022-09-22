@@ -1,7 +1,7 @@
 ---
 author: denalon
 title: "talk"
-date: 2022-0921
+date: 2022-09-21
 draft: false
 url: /web/talk/
 type: docs
